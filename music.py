@@ -108,7 +108,7 @@ class Beats(commands.Cog):
            await inter.response.send_message('You are not in a voice channel!')
         else:
             song = self.player.current_song.name
-            await self.player.skip()
+            self.player.skip()
             await inter.response.send_message(f'Skipped *{song}*.')
 
     #Spits out the current song a visualization of the queue
