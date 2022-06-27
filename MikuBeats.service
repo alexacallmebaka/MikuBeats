@@ -1,0 +1,15 @@
+[Unit]
+Description=MikuBeats Discord Bot
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=lloyd
+WorkingDirectory=/opt/bots/discord/MikuBeats
+ExecStart=/opt/bots/discord/MikuBeats/bin/python /opt/bots/discord/MikuBeats/main.py
+
+[Install]
+WantedBy=multi-user.target
