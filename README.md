@@ -15,6 +15,6 @@ In MikuBeat's working directory, create a file at `creds/creds.json`. Place your
 }
 ```
 
-From here, all you need to do to start MikuBeats is to run the `main.py` file. If you feel so inclined, you can run MikuBeats as a [systemd](https://systemd.io/) service by installing the `MikuBeats.service` file onto your system.
+From here, all you need to do to start MikuBeats is to run the `main.py` file. If you feel so inclined, you can run MikuBeats as a [systemd](https://systemd.io/) service by installing the `MikuBeats.service` file onto your system. Depending on where you deploy MikuBeats on your system, you may have to edit this file.
 
 Happy listening!
