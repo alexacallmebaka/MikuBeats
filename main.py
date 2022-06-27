@@ -4,7 +4,8 @@ import json
 from music import Beats
 
 def main() -> None:
-    
+
+    #We need these to join voice chats.
     intents = nextcord.Intents.default()
     intents.voice_states = True
 
